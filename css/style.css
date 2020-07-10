@@ -1,0 +1,180 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .home__payment {
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 100;
+    text-decoration: underline;
+    margin-bottom: 1em; }
+  .home__payment--active {
+    font-size: 17px;
+    line-height: 3em; }
+  .home__note {
+    width: 70%; }
+  .home__features--headings {
+    text-align: center;
+    font-family: Montserrat;
+    color: #1249be;
+    font-size: 3em; }
+  .home__features {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 5em; }
+  .home__features--text {
+    text-align: center;
+    margin-top: 3em; }
+  .home__features--head {
+    font-family: Montserrat;
+    text-decoration: underline;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-size: 2em; }
+  .home__features--active {
+    width: 100%;
+    font-size: 0.8em;
+    font-family: Open sans;
+    line-height: 2.5em;
+    text-align: center; }
+  .home__feature {
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-between; }
+  .home__feature--text {
+    width: 50%;
+    padding: 9em; }
+  .home__feature--head {
+    font-family: Montserrat;
+    text-decoration: underline;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center; }
+  .home__feature--active {
+    font-size: 0.8em;
+    font-family: Open sans;
+    line-height: 2.5em;
+    text-align: center; }
+  .home__security--heading {
+    text-align: center;
+    color: #ffb4c4;
+    font-size: 2em;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: Montserrat; }
+  .home__security--note {
+    margin-top: 2em;
+    line-height: 2.5em;
+    color: #1249be; }
+  .home__security--container {
+    display: flex;
+    justify-content: space-around; }
+
+.your__bank--text {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 5em;
+  color: #585252;
+  font-family: Open sans;
+  font-weight: 700;
+  padding: 1em;
+  animation: shake 5s; }
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  animation: shake 5s; }
+  .about__picture {
+    background-image: url(/image/background-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33rem;
+    height: 24rem;
+    position: relative;
+    top: -4em; }
+  .about__paragraph {
+    margin-left: 3em; }
+  .about__name {
+    font-size: 50px;
+    text-decoration: underline; }
+
+@keyframes shake {
+  0% {
+    transform: rotate(-10deg); }
+  50% {
+    transform: rotate(5deg); }
+  100% {
+    transform: rotate(0); } }
+
+.header {
+  animation: shake 5s;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1; }
+  .header__list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4em; }
+  .header__link {
+    margin: 1em;
+    color: #fff; }
+  .header__icon {
+    color: #1249be;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-top: 0px;
+    display: none; }
+  .header__left {
+    display: none; }
+
+.footer {
+  display: flex;
+  justify-content: space-around; }
+  .footer__icon {
+    width: 1.5em;
+    padding-left: 1em;
+    margin-top: 1.5em; }
+  .footer__signature {
+    text-align: center;
+    color: #1249be;
+    font-size: 1.2em;
+    margin: 4em 0 1em 0; }
+
+.btn--active {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 9px;
+  padding-left: 9px;
+  color: black;
+  background-color: #fff;
+  font-style: Open sans;
+  border: none;
+  margin-right: 4em;
+  border-radius: 25px;
+  margin-top: 0.5em; }
+
+.btn--about {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: #fff;
+  background-color: black;
+  font-style: Open sans;
+  margin-right: 4em;
+  border-radius: 25px;
+  border: none; }
+
+.about__form {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 25px;
+  width: 15rem;
+  background-color: #f1f6f9;
+  border: none; }

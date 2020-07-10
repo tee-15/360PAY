@@ -1,0 +1,280 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    
+    
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about__picture {
+       
+        width: 65rem;
+        height: 46rem;
+        top: 3em;
+      
+    }
+    .home__pages {
+        display: none;
+    }
+    .home__note {
+        width: 100%;
+        position: relative;
+        top: -45em;
+    }
+    .home__payment--active {
+        font-size: 16px;
+        line-height: 2em;
+    }
+    .home__features {
+       
+        width: 100%;
+      
+        flex-direction: column;
+    }
+    .home__features--picture {
+        text-align: center;
+        width: 97%;
+    }
+    .home__features--con {
+        text-align: center;
+        margin-left: 5em;
+    }
+    .home__features--headings {
+        margin-top: -8em;
+    }
+    .home__feature {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .home__feature--text {
+        width: 79%;
+    }
+    .home__feature--picture {
+        text-align: center;
+        width: 64em;
+    }
+    .home__security--container {
+       
+        flex-direction: column;
+        text-align: center;
+    }
+    .home__security--note {
+        font-size: 1.2em;
+    }
+    .your__bank--text {
+        font-size: 6em;
+        margin-left: 1em;
+    }
+    .footer {
+     
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5em;
+    }
+    p.footer__message {
+        font-size: 2em;
+    }
+    .footer__icon {
+        width: 2.7em;
+   
+    }
+    .footer__signature {
+      
+        margin-left: 6em;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-top: 3em;
+        position: fixed;
+        width: 103%;
+        height: 16em;
+        background: white;
+        color: hsl(228, 39%, 23%);
+        display: none;
+        text-align: center;
+        transition: 0.5s;
+        line-height: 1.5em;
+        font-size: 2em;
+    }
+    .btn--active {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 9px;
+        padding-left: 9px;
+        color: hsl(228, 39%, 23%);
+        border: none;
+        margin-right: 0em;
+        border-radius: 25px;
+        font-size: 1.5em;
+        transition: 0.5s;
+    }
+    .header__icon {
+        cursor: pointer;
+        margin-top: 3px;
+        display: block;
+        width: 2em;
+    }
+    .menu {
+        width: 3em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header-left {
+        position: fixed;
+        height: 20%;
+        width: 20%;
+        background-color: white;
+        display: block;
+    }
+    img.close {
+        width: 2em;
+        margin-top: 0em;
+    }
+    img.features {
+        width: 55em;
+    }
+    img.feature{
+        width: 55em;
+    }
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    
+    
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about__picture {
+       
+        width: 65rem;
+        height: 46rem;
+        top: 3em;
+      
+    }
+    .home__pages {
+        display: none;
+    }
+    .home__note {
+        width: 100%;
+        position: relative;
+        top: -45em;
+    }
+    .home__payment--active {
+        font-size: 16px;
+        line-height: 2em;
+    }
+    .home__features {
+       
+        width: 100%;
+      
+        flex-direction: column;
+    }
+    .home__features--picture {
+        text-align: center;
+        width: 97%;
+    }
+    .home__features--con {
+        text-align: center;
+        margin-left: 5em;
+    }
+    .home__features--headings {
+        margin-top: -8em;
+    }
+    .home__feature {
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    .home__feature--text {
+        width: 79%;
+    }
+    .home__feature--picture {
+        text-align: center;
+        width: 64em;
+    }
+    .home__security--container {
+       
+        flex-direction: column;
+        text-align: center;
+    }
+    .home__security--note {
+        font-size: 1.2em;
+    }
+    .your__bank--text {
+        font-size: 6em;
+        margin-left: 1em;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5em;
+    }
+    p.footer__message {
+        font-size: 2em;
+    }
+    .footer__icon {
+        width: 2.7em;
+   
+    }
+    .footer__signature {
+      
+        margin-left: 6em;
+    }
+    
+    .header__list {
+        flex-direction: column;
+        margin-top: 3em;
+        position: fixed;
+        width: 103%;
+        height: 16em;
+        background: white;
+        color: hsl(228, 39%, 23%);
+        display: none;
+        text-align: center;
+        transition: all.5s;
+        line-height: 1.5em;
+        font-size: 2em;
+    }
+    .header__icon {
+        cursor: pointer;
+        margin-top: 3px;
+        display: block;
+        width: 2em;
+    }
+    .menu {
+        width: 3em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header-left {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        display: none;
+    }
+    img.close {
+        width: 2em;
+        margin-top: 0em;
+    }
+    img.features {
+        width: 55em;
+    }
+    img.feature{
+        width: 55em;
+    }
+
+
+}
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+   
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}
